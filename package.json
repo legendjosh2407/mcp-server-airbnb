@@ -23,13 +23,24 @@
     "build": "tsc && shx chmod +x dist/*.js",
     "prepare": "npm run build",
     "watch": "tsc --watch"
-  },
+  },"scripts": {
+  // Keep existing scripts, then add:
+  "start": "node railway-server.js",
+  "railway:start": "node railway-server.js"
+},
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.1",
     "cheerio": "^1.0.0",
     "node-fetch": "^3.3.2",
     "robots-parser": "^3.0.1"
-  },
+  },"dependencies": {
+  // Keep all existing dependencies, then add these:
+  "express": "^4.18.2",
+  "cors": "^2.8.5",
+  "helmet": "^7.0.0",
+  "express-rate-limit": "^6.10.0",
+  "dotenv": "^16.3.1"
+},
   "devDependencies": {
     "@types/node": "^22.13.9",
     "@types/node-fetch": "^2.6.12",
