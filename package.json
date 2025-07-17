@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "MCP server for Airbnb search and listing details",
   "license": "MIT",
-  "type": "module",
+  "type": "commonjs",
   "author": "OpenBnB (https://openbnb.org)",
   "keywords": [
 		"mcp",
