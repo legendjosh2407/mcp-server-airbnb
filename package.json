@@ -20,10 +20,12 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc && shx chmod +x dist/*.js",
-    "prepare": "npm run build",
-    "watch": "tsc --watch"
-  },"scripts": {
+  "build": "echo 'No build step required for Railway'",
+  "prepare": "echo 'Skipping prepare step'",
+  "watch": "tsc --watch",
+  "start": "node railway-server.js",
+  "railway:start": "node railway-server.js"
+},"scripts": {
   "start": "node railway-server.js",
   "railway:start": "node railway-server.js"
 },
