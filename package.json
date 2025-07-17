@@ -27,6 +27,10 @@
 },"scripts": {
   "start": "node railway-server.js",
   "railway:start": "node railway-server.js"
+},{
+  "scripts": {
+    "start": "node mcp-protocol-server.js"
+  }
 },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.1",
